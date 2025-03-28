@@ -37,7 +37,10 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'birth/static'),  # 确保这里的路径指向你的 static 目录
 ]
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
+FREEZE_STATIC_ROOT = os.path.join(BASE_DIR, 'build/static')
+FREEZE_STATIC_URL = '/static/'
 # Application definition
 
 INSTALLED_APPS = [
@@ -48,6 +51,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'freeze',
 ]
 
 MIDDLEWARE = [

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>生日快乐</title>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/birth.css">
+</head>
+<body>
+    <div class="birth_background">
+        <div class="star star1"></div>
+        <div class="star star2"></div>
+        <div class="star star3"></div>
+        <div class="star star4"></div>
+        <div class="star star5"></div>
+        <div class="star star6"></div>
+        <div class="birth">
+            <div id="dialogBox" class="dialog-box">
+                <p id="dialogText">你好，GEROGIA，1999年4月6日，您出生了，让我们来吹灭蜡烛</p>
+            </div>
+            <canvas id="cakeCanvas"></canvas>
+            <div id="cardGrid" class="card-grid" style="display: none;">
+                <div class="card" data-index="0">
+                    <div class="card-inner">
+                        <div class="card-front">动物</div>
+                        <div class="card-back" style="background-image: url('img/card1.png');"></div>
+                    </div>
+                </div>
+                <div class="card" data-index="1">
+                    <div class="card-inner">
+                        <div class="card-front">地方</div>
+                        <div class="card-back" style="background-image: url('img/card2.png');"></div>
+                    </div>
+                </div>
+                <div class="card" data-index="2">
+                    <div class="card-inner">
+                        <div class="card-front">植物</div>
+                        <div class="card-back" style="background-image: url('img/card3.png');"></div>
+                    </div>
+                </div>
+                <div class="card" data-index="3">
+                    <div class="card-inner">
+                        <div class="card-front">角色</div>
+                        <div class="card-back" style="background-image: url('img/card4.png');"></div>
+                    </div>
+                </div>
+                <div class="card" data-index="4">
+                    <div class="card-inner">
+                        <div class="card-front">季节</div>
+                        <div class="card-back" style="background-image: url('img/card5.png');"></div>
+                    </div>
+                </div>
+                <div class="card" data-index="5">
+                    <div class="card-inner">
+                        <div class="card-front">爱好</div>
+                        <div class="card-back" style="background-image: url('img/card6.png');"></div>
+                    </div>
+                </div>
+                <div class="card" data-index="6">
+                    <div class="card-inner">
+                        <div class="card-front">饮食</div>
+                        <div class="card-back" style="background-image: url('img/card7.png');"></div>
+                    </div>
+                </div>
+                <div class="card" data-index="7">
+                    <div class="card-inner">
+                        <div class="card-front">颜色</div>
+                        <div class="card-back" style="background-image: url('img/card8.png');"></div>
+                    </div>
+                </div>
+                <div class="card" data-index="8">
+                    <div class="card-inner">
+                        <div class="card-front">饮料</div>
+                        <div class="card-back" style="background-image: url('img/card9.png');"></div>
+                    </div>
+                </div>
+            </div>
+        </div>       
+    </div>
+    <script src="js/birth.js"></script>
+</body>
+</html>
