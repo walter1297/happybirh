@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'MyPixelFont';
-    src: url('/static/font/PixelMplus12-Regular.ttf') format('truetype');
+    src: url('../font/PixelMplus12-Regular.ttf') format('truetype');
 }
 
 body {
